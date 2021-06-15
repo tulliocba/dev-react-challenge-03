@@ -77,8 +77,7 @@ describe('useCart Hook', () => {
       id: 3,
       title: 'Tênis Adidas Duramo Lite 2.0',
       price: 219.9,
-      image:
-        'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis3.jpg',
+      image: 'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis3.jpg',
     });
 
     const { result, waitForNextUpdate } = renderHook(useCart, {
@@ -96,16 +95,14 @@ describe('useCart Hook', () => {
         {
           id: 1,
           amount: 2,
-          image:
-            'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis1.jpg',
+          image: 'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis1.jpg',
           price: 179.9,
           title: 'Tênis de Caminhada Leve Confortável',
         },
         {
           id: 2,
           amount: 1,
-          image:
-            'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis2.jpg',
+          image: 'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis2.jpg',
           price: 139.9,
           title: 'Tênis VR Caminhada Confortável Detalhes Couro Masculino',
         },
@@ -114,8 +111,7 @@ describe('useCart Hook', () => {
           amount: 1,
           title: 'Tênis Adidas Duramo Lite 2.0',
           price: 219.9,
-          image:
-            'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis3.jpg',
+          image: 'https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/modulo-redux/tenis3.jpg',
         },
       ])
     );
